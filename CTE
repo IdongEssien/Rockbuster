@@ -1,4 +1,4 @@
-Just like Subqueries, one can use Common Table Expressions (CTE) to perform same functions (average amount paid by top 5 customers)
+Just like Subqueries, one can use Common Table Expressions (CTE) to perform same functions (average amount paid by top 5 customers).
 
 WITH Average_total_paid_cte (customer_id, first_name, Last_name, city, country) AS
 (SELECT B.customer_id, B.first_name, B.last_name, D.city, E.country,
